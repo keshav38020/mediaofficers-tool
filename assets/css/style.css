@@ -36,6 +36,19 @@ body.menu-open {
   letter-spacing: 0.04em;
 }
 
+.brand-mark-image {
+  overflow: hidden;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+}
+
+.brand-mark-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 5px;
+}
+
 .site-menu a:not(.nav-cta) {
   transition: color 180ms ease;
 }
@@ -382,6 +395,55 @@ body.menu-open {
   text-transform: uppercase;
 }
 
+.logo-gallery {
+  display: grid;
+  min-height: 330px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  background:
+    linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(249, 115, 22, 0.12)),
+    #12343b;
+  padding: 1.25rem;
+}
+
+.logo-gallery img {
+  width: 100%;
+  height: 132px;
+  border-radius: 8px;
+  background: #fff;
+  object-fit: contain;
+  padding: 1rem;
+  box-shadow: inset 0 0 0 1px rgba(16, 24, 32, 0.08);
+}
+
+.social-gallery {
+  display: grid;
+  min-height: 330px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  background: #101820;
+  padding: 1.25rem;
+}
+
+.social-gallery img {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
+}
+
+.seo-proof-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border: 1px solid rgba(16, 24, 32, 0.08);
+  border-radius: 8px;
+  background: #101820;
+  object-fit: cover;
+  box-shadow: 0 18px 55px rgba(16, 24, 32, 0.1);
+}
+
 .logo-board {
   display: grid;
   min-height: 330px;
@@ -557,5 +619,23 @@ body.menu-open {
 
   .logo-chip {
     min-height: 104px;
+  }
+
+  .logo-gallery {
+    min-height: auto;
+  }
+
+  .logo-gallery img {
+    height: 104px;
+    padding: 0.75rem;
+  }
+
+  .social-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .social-gallery img {
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 }
