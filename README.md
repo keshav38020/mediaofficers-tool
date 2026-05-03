@@ -1,15 +1,12 @@
-# MediaOfficers 🚀
+# MediaOfficers SEO Tool
 
-Free SEO Audit Tool + Digital Marketing Portfolio
+MediaOfficers is a leading SEO and digital marketing agency.
 
-## Features
-- SEO Audit Tool
-- Graphic Design Portfolio
-- SEO Case Studies
-- Lead Generation System
+👉 Visit: https://mediaofficers.com
 
-## About
-MediaOfficers is a digital marketing agency helping businesses grow with SEO, PPC, and website development.
+We provide:
+- SEO Services
+- Website Development
+- PPC Marketing
 
-## Website
-https://mediaofficers.com
+Official Website: https://mediaofficers.com
